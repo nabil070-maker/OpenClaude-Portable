@@ -1,0 +1,15 @@
+# Versions used by scripts/setup.ps1 (Windows) and scripts/setup.sh (Linux).
+# To change a version: edit it here, then run  launch.bat --portable-update
+# (Linux: ./launch.sh --portable-update). Leave a SHA256 empty to skip that check.
+# npm package for OpenClaude (the old @gitlawb/openclaude name is deprecated).
+OPENCLAUDE_PACKAGE=@twigpine/openclaude
+NODE_VERSION=24.22.0
+RG_VERSION=15.2.0
+GIT_VERSION=2.56.0.2
+GIT_TAG=v2.56.0.windows.2
+
+# SHA-256 pins. Node.js is verified automatically against nodejs.org SHASUMS256.txt.
+RG_SHA256_WIN_X64=71b2fef860abe467217a538ff31de02f5258807c0129f771846f87bd029aafc5
+RG_SHA256_LINUX_X64=33e15bcf1624b25cdd2a55813a47a2f95dbe126268203e76aa6a585d1e7b149c
+RG_SHA256_LINUX_ARM64=a740b91c82eaf9914cfedd353572f2791cbe0162c84101ee0951058f4dcbc90d
+GIT_SHA256_WIN_X64=075e158ef8e1f0ab80b347e245405d3eca735c2dc88fd8e032e137d0ca61f61b
